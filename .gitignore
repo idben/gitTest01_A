@@ -1,0 +1,15 @@
+# Python 虛擬環境與快取
+.venv/
+__pycache__/
+*.pyc
+
+# 本機機密設定
+.env
+
+# Notebook 自動檢查點
+.ipynb_checkpoints/
+
+# 本課專案的本機資料、模型與輸出
+/data/raw/
+/models/
+/outputs/
