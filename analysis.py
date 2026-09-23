@@ -6,7 +6,7 @@ print("原始資料：", scores)
 print("有效資料筆數：", len(clean_scores))
 print("清理後資料：", clean_scores)
 if clean_scores:
-    print("平均分數：", sum(clean_scores) / len(clean_scores))
+    print("平均分數：", sum(clean_scores) / len(scores))
     print("最高分數：", max(clean_scores))
     print("最低分數：", min(clean_scores))
 else:
