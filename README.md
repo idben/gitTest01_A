@@ -1,0 +1,37 @@
+# 分數資料分析練習
+
+這是一個 Python 與 Git 入門專案，示範缺失值清理，以及平均值、最高分與最低分計算。
+
+## 執行環境
+
+- Python 3。
+- 不需要第三方套件，依賴說明見 requirements.txt。
+
+## 執行方式
+
+在專案根目錄執行：
+
+```bash
+python analysis.py
+```
+
+如果你的環境使用 python3，請改成 python3 analysis.py。
+
+## 資料與結果
+
+示範分數直接寫在 analysis.py 中，None 代表缺失值。
+
+使用內建示範資料時，平均分數為 82.0、最高分為 95、最低分為 68。
+
+目前程式只輸出到終端機，不會自動建立 CSV 或讀取 data/raw 中的檔案。
+
+## 檔案說明
+
+- analysis.py：資料清理與統計程式。
+- requirements.txt：第三方依賴說明。
+- .gitignore：Git 忽略規則。
+- .env.example：本機設定格式範例，不含真實金鑰。
+
+.env 與 .env.example 是設定管理示範，目前程式不需要 API 金鑰，也不會載入它們。
+
+outputs、data/raw 與 models 是本機資料或產出位置，不納入本課專案的版本控制。它們不一定會出現在下載的專案中。
