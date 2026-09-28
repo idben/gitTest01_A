@@ -1,5 +1,14 @@
 # 及格統計使用範例
 
+請在專案根目錄執行：
+
+```bash
+python analysis.py
+```
+
+如果環境使用 python3，請改用 python3 analysis.py。
+測試不同資料時，修改 analysis.py 中的 scores 並儲存，再執行程式。
+
 使用原始示範資料時，5 人及格，及格率為 100.0%。
 
 暫時把 scores 改成 [59, 60, 80, None]，應有 2 人及格，及格率為 66.7%。
